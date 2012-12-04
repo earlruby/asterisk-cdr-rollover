@@ -2,6 +2,7 @@ asterisk-cdr-rollover
 =====================
 
 Roll-over / move / rotate an Asterisk Master.csv call detail record (CDR) file every 15 minutes.
+
 Copyright (C) 2012 Earl C. Ruby III
 
 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
