@@ -15,7 +15,7 @@ The latest version of this code can be downloaded from https://github.com/earlru
 Purpose
 =======
 
-If you are trying to provide CDR files to a billing service, such as WebCDR.com, you need to provide files containing your latest call data every 15 minutes ot so. These scripts create a new CDR file every 15 minutes with the latest CDR records, without interrupting call flow.  You do not need to make any changes to your Asterisk configuration to use these scripts.
+If you are trying to provide CDR files to a billing service, such as WebCDR.com, you need to provide files containing your latest call data every 15 minutes or so. These scripts create a new CDR file every 15 minutes with the latest CDR records, without interrupting call flow.  You do not need to make any changes to your Asterisk configuration to use these scripts.
 
 Setup
 =====
