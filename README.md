@@ -23,9 +23,9 @@ Setup
 
 There are two files that you need to install on your Asterisk server:
 
- * asterisk-cdr-rollover.sh - A bash shell script. Copy this file into /usr/local/sbin.  This script moves the file /var/log/asterisk/cdr-csv/Master.csv to a new file named /var/log/asterisk/cdr-csv/cdr-YYYYMMDDHHMISS.csv, where YYYYMMDDHHMISS is the current time. A new zero-byte Master.csv file is created using the default umask of the user running the asterisk process. Asterisk will start writing to the new Master.csv file at the end of the next call.
+ * asterisk-cdr-rollover.sh - A bash shell script. Copy this file into /usr/local/bin.  This script moves the file /var/log/asterisk/cdr-csv/Master.csv to a new file named /var/log/asterisk/cdr-csv/cdr-YYYYMMDDHHMISS.csv, where YYYYMMDDHHMISS is the current time. A new zero-byte Master.csv file is created using the default umask of the user running the asterisk process. Asterisk will start writing to the new Master.csv file at the end of the next call.
 
- * asterisk-cdr-rollover - This is a cron job. Copy it into /etc/cron.d and it will run the /usr/local/sbin/asterisk-cdr-rollover.sh script once every 15 minutes.
+ * asterisk-cdr-rollover - This is a cron job. Copy it into /etc/cron.d and it will run the /usr/local/bin/asterisk-cdr-rollover.sh script once every 15 minutes.
 
 The cron job is set up to run as the user "asterisk". If you are running asterisk as "root" or some other user name, edit the asterisk-cdr-rollover cron job and change the name of the user running the script to the same name as the user running the asterisk process.
 

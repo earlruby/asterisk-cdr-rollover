@@ -26,4 +26,4 @@
 # "root". If it's running under some other user, change the 
 # user name "asterisk" (below) to the name of the user.
 
-*/15 * * * * asterisk /usr/local/sbin/asterisk-cdr-rollover.sh
+*/15 * * * * asterisk /usr/local/bin/asterisk-cdr-rollover.sh

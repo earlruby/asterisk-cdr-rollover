@@ -21,7 +21,7 @@
 # The latest version of this code can be downloaded from https://github.com/earlruby/asterisk-cdr-rollover.
 
 
-# Install this file in /usr/local/sbin on the Asterisk server
+# Install this file in /usr/local/bin on the Asterisk server
 
 # This script will move the Master.csv file to a new file name
 # once every 15 minutes.
